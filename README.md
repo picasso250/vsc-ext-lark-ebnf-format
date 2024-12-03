@@ -19,7 +19,7 @@ This extension does not add any VS Code settings.
 
 ## Known Issues
 
-There are currently no known issues. If you encounter any, please open an issue on the [GitHub repository](https://github.com/picasso250/vscode-lark-ebnf-fmt/issues).
+There are currently no known issues. If you encounter any, please open an issue on the [GitHub repository](https://github.com/picasso250/vsc-ext-lark-ebnf-format/issues).
 
 ## Release Notes
 
