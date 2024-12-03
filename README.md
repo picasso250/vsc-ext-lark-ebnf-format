@@ -7,8 +7,6 @@ lark-ebnf-fmt is a Visual Studio Code extension designed to format EBNF files fo
 - Automatically formats EBNF files to ensure proper indentation and readability.
 - Supports formatting on command.
 
-![feature](images/feature.png)
-
 > Tip: Using short, focused animations can effectively demonstrate your extension's features. Consider including a short GIF for better visual guidance.
 
 ## Requirements
