@@ -3,7 +3,7 @@
   "name": "lark-ebnf-fmt",
   "displayName": "lark-ebnf-fmt",
   "description": "just format ebnf for lark",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "repository": "https://github.com/picasso250/vscode-lark-ebnf-fmt",
   "engines": {
     "vscode": "^1.88.0"
