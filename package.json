@@ -1,43 +1,38 @@
 {
   "publisher": "xiaochi",
-  "name": "llamachat",
-  "displayName": "llamaChat",
-  "description": "chat with llama, or copy files' name and content",
+  "name": "lark-ebnf-fmt",
+  "displayName": "lark-ebnf-fmt",
+  "description": "just format ebnf for lark",
   "version": "0.0.6",
-  "repository": "https://github.com/picasso250/vscode-llamachat",
+  "repository": "https://github.com/picasso250/vscode-lark-ebnf-fmt",
   "engines": {
     "vscode": "^1.88.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:ebnf"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "menus": {
-      "explorer/context": [
-        {
-          "command": "llamachat.copyFileNamesAndContent"
-        }
-      ]
-    },
+    "languages": [
+      {
+        "id": "ebnf",
+        "extensions": [
+          ".ebnf"
+        ],
+        "aliases": [
+          "EBNF",
+          "ebnf"
+        ]
+      }
+    ],
     "commands": [
       {
-        "command": "llamachat.copyFileNamesAndContent",
-        "title": "llamaChat: Copy File Name And Content",
+        "command": "lark-ebnf-fmt.formatEBNF",
+        "title": "lark-ebnf format",
         "category": "Explorer"
-      },
-      {
-        "command": "llamachat.copyOneFile",
-        "title": "llamaChat: Copy This File Name And Content"
-      },
-      {
-        "command": "llamachat.copySelectedText",
-        "title": "llamaChat: Copy Selected Text"
-      },
-      {
-        "command": "llamachat.openPanel",
-        "title": "llamaChat: Open AI Chat Panel"
       }
     ]
   },

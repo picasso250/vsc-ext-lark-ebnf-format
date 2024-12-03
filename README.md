@@ -1,57 +1,39 @@
-# llamachat README
+# lark-ebnf-fmt README
 
-Copy Files 是一个用于 Visual Studio Code 的扩展，可以将文件名和内容复制到剪贴板。
+lark-ebnf-fmt is a Visual Studio Code extension designed to format EBNF files for the Lark parser.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Automatically formats EBNF files to ensure proper indentation and readability.
+- Supports formatting on command.
 
-For example if there is an image subfolder under your extension project workspace:
+![feature](images/feature.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: Using short, focused animations can effectively demonstrate your extension's features. Consider including a short GIF for better visual guidance.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+No additional requirements or dependencies are needed for this extension to work.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not add any VS Code settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+There are currently no known issues. If you encounter any, please open an issue on the [GitHub repository](https://github.com/picasso250/vscode-lark-ebnf-fmt/issues).
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.6
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of lark-ebnf-fmt.
 
 ---
 
 ## Following extension guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Ensure that you've read through the extension guidelines and follow best practices for creating your extension.
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
